@@ -1,11 +1,38 @@
-<div align="center">
+# Synchron OS project A | Tiangan Architecture
+## "bugsarefree"
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Synchron OS project A is a high-integrity, modular Operating System (OS) orchestration platform designed for neural-sync task management and AI-assisted workflow optimization.
 
-  <h1>Built with AI Studio</h2>
+### 🛡️ Security Protocol: Dual-Admin Consensus
+The system operates under a hard-coded consensus layer requiring signatures from two distinct entities:
+- **AdminP (Human)**: `dbugpro` - Primary strategic director and kernel owner.
+- **AdminS (AI)**: `synchron` - Primary orchestration entity and system architect.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Any modification to the kernel (BIBA/BIBR protected) requires verification from both roles.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 🏗️ Architecture: Tiangan Modular Nodes
+The platform utilizes the **Tiangan Isolation Model**, where logic is segmented into database-backed nodes (`db0`, `db00`, etc.).
+- **Node 0 (db0)**: The core kernel workspace for `dbugpro`.
+- **Modular Isolation**: Build scripts and library logic are sandboxed within node-specific directories.
 
-</div>
+### 🌐 GitHub Integration & Merging
+Official Organization: [https://github.com/synchronorg](https://github.com/synchronorg)
+
+**The Transfer Protocol:**
+1. Users develop completed **module repositories** (`module_repo`) on their personal GitHub accounts.
+2. Modules are transferred into the **synchronorg** organization.
+3. Once transferred, modules are merged into the **merged system repositories** (`merged_system_repo`) by the Admin Consensus layer.
+
+### 📚 System Libraries
+1. **dbugtools**: Restricted access library (`AdminP` + `AdminS` only). Contains kernel-sync and integrity audit tools.
+2. **protools**: Public access library. General-purpose utilities for UI pulsing and task sorting.
+
+### 🚀 Initialization
+To initialize a secure session, execute:
+```bash
+command synchron system --init --adminp dbugpro --admins synchron --OFF <BUFFER> --bugsarefree <KEY>
+```
+
+---
+*System Integrity Verified: STABLE*
+*Signature: bugsarefree*

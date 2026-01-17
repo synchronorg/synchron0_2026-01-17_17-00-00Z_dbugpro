@@ -1,0 +1,28 @@
+{
+  "library": "dbugtools",
+  "permissions": {
+    "editors": [
+      "adminp",
+      "admins"
+    ],
+    "access": "restricted"
+  },
+  "functions": [
+    {
+      "name": "kernel_sync",
+      "description": "Synchronize core kernel parameters."
+    },
+    {
+      "name": "biba_audit",
+      "description": "Run integrity checks on kernel files."
+    },
+    {
+      "name": "bibr_lock",
+      "description": "Initiate core lock on unauthorized requests."
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-17T10:30:00.000Z",
+    "owner": "adminp"
+  }
+}

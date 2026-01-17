@@ -1,0 +1,31 @@
+{
+  "library": "protools",
+  "permissions": {
+    "editors": "all",
+    "viewers": "all",
+    "commenters": "all",
+    "access": "public"
+  },
+  "functions": [
+    {
+      "name": "ui_pulse",
+      "description": "Trigger a visual pulse on the interface."
+    },
+    {
+      "name": "task_sort",
+      "description": "Reorganize tasks based on neural priority."
+    },
+    {
+      "name": "log_view",
+      "description": "Examine session log entries."
+    },
+    {
+      "name": "merge_protocol_builder",
+      "description": "Update and generate the official merge_protocol.md document."
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-17T12:00:00.000Z",
+    "owner": "community"
+  }
+}
